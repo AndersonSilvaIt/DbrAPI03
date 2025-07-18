@@ -1,0 +1,6 @@
+@DbrApi03_HostAddress = http://localhost:5253
+
+GET {{DbrApi03_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
