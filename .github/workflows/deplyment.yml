@@ -20,7 +20,7 @@ jobs:
       run: dotnet build DbrApi03/DbrApi03.sln --configuration Release
 
     - name: Publish
-      run: dotnet publish DbrApi03/DbrApi03.csproj -c Release -o ./publish
+      run: dotnet publish DbrApi03/DbrApi03/DbrApi03.csproj -c Release -o ./publish
 
     - name: Deploy to Azyre
       uses: azure/webapps-deploy@v2
